@@ -1,0 +1,32 @@
+<h2>Selecione os ingredientes:</h2>
+
+<div class="ingrediente_label">
+  <div class="ingrediente_card" *ngFor="let ing of ingredientes"
+       (click)="toggleSelecionado(ing.id)"
+       [style.border]="selecionados.includes(ing.id) ? '3px solid #87d844' : '1px solid #ccc'">
+    <img [src]="ing.fotoUrl" alt="{{ ing.nome }}"/>
+    <p>{{ ing.nome }}</p>
+  </div>
+</div>
+<p class="aviso">{{aviso}}</p>
+
+<button (click)="buscarReceitas()">Buscar Receitas</button>
+
+<h2>{{titulo}}</h2>
+
+<div *ngIf="receitas.length > 0" >
+
+  <div *ngFor="let rec of receitas" class="receita_label">
+
+    <div class="receita_card">
+        <h3>{{ rec.nome }}</h3>
+        <img [src]="rec.fotoUrl"/>
+        <p class="descricao">{{ rec.descricao }}</p>
+        <a>Link de como fazer</a>
+        <p class="ingredientes"><strong>Ingredientes:</strong> {{ formatarIngredientes(rec.ingredientes) }}</p>
+    </div>
+
+  </div>
+
+</div>
+

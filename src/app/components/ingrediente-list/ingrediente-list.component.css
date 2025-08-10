@@ -1,0 +1,140 @@
+.ingrediente_label {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 18px;
+    padding: 20px;
+}
+
+
+.ingrediente_card {
+    padding: 10px;
+    cursor: pointer;
+    width: 224px;
+    height: 236px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #e5f0dc;
+    box-shadow: rgba(50, 50, 93, 0.15) 0px 6px 12px -2px, rgba(0, 0, 0, 0.15) 0px 3px 7px -3px;
+    transition: all 0.3s ease;
+}
+
+.ingrediente_card:hover {
+    transform: scale(1.05);
+    background-color: #bef194;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 12px 20px -2px, rgba(0, 0, 0, 0.3) 0px 6px 12px -3px;
+}
+
+.ingrediente_card > img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.ingrediente_card > p {
+    color: #333;
+    font-size: 18px;
+    margin-top: 5px;
+    font-weight: 500;
+}
+
+
+.aviso {
+    text-align: center;
+    
+    color: rgb(245, 60, 60);
+    padding: 8px 14px;
+    margin: 10px auto;
+    width: fit-content;
+    border-radius: 5px;
+    font-weight: bold;
+
+}
+
+
+button {
+    display: block;
+    margin: 15px auto;
+    padding: 12px 24px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: rgba(0,0,0,0.2) 0px 4px 6px;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+    
+}
+
+
+h2 {
+    background: linear-gradient(90deg, #4CAF50, #2e7d32);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 3px solid #1b5e20;
+    border-radius: 4px;
+}
+
+
+.receita_label {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.receita_card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 16px;
+    max-width: 600px; 
+    width: 100%;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.receita_card > h3 {
+    margin-bottom: 10px;
+    font-size: 22px;
+    color: #2e7d32;
+    font-weight: bold;
+}
+
+.receita_card > img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+.receita_card > .descricao {
+    font-style: italic;
+    color: #666;
+    margin-bottom: 8px;
+    line-height: 1.4;
+}
+
+.receita_card > .ingredientes {
+    font-size: 14px;
+    color: #333;
+    background-color: #f0f0f0;
+    padding: 8px;
+    border-radius: 6px;
+}
+
+
+/* opcao 1:
+box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
+ opcao 2:
+box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+opcao 3: 
+box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+*/
