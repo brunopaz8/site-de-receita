@@ -22,7 +22,7 @@
         <h3>{{ rec.nome }}</h3>
         <img [src]="rec.fotoUrl"/>
         <p class="descricao">{{ rec.descricao }}</p>
-        <a>Link de como fazer</a>
+        <a [href]="rec.linkTutorial" target="_blank" rel="noopener noreferrer">Tutorial</a>
         <p class="ingredientes"><strong>Ingredientes:</strong> {{ formatarIngredientes(rec.ingredientes) }}</p>
     </div>
 

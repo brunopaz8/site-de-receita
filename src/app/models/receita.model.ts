@@ -5,6 +5,7 @@ export interface Receita {
   nome: string;
   descricao: string;
   fotoUrl: string;
+  linkTutorial: string;
   tipo: string;
   ingredientes: Ingrediente[];
 }

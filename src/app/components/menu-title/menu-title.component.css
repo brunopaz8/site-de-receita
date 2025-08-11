@@ -1,0 +1,58 @@
+
+.container_menu_title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px; 
+  background-color: #fff9c4cb;
+  border: 5px solid #F57F17;
+  
+  
+}
+
+img{
+    width: 100px;
+    
+}
+
+.title_label {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; 
+  flex: 1; 
+}
+
+.title {
+  margin: 0;
+  font-size: 63px;
+  color: #df7f2c;
+  font-family: "Cookie", cursive;
+  translate: -15px 0px;
+}
+
+.title_increment {
+  width: 300px;
+  margin: 0;
+  font-size: 29px;
+  color: #c0600ccc;
+  translate: 0px 8px;
+  font-family: "Cookie", cursive;
+}
+
+.links {
+  display: flex;
+  gap: 15px; /* espaço entre os links */
+  justify-content: flex-end;
+  flex-shrink: 0;
+}
+
+.links a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
