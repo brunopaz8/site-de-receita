@@ -1,11 +1,10 @@
 import { Component } from '@angular/core';
-import { IngredienteListComponent } from './components/ingrediente-list/ingrediente-list.component';
-import { MenuTitleComponent } from "./Components/menu-title/menu-title.component";
+import { HomeComponent } from "./Pages/home/home.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [IngredienteListComponent, MenuTitleComponent],
+  imports: [HomeComponent],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })

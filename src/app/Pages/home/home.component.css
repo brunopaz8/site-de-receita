@@ -1,3 +1,10 @@
-.Home{
-    background-color: black;
+html, body {
+    background-color: #F2AC57;
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
+.title{
+     background-color: #7D4419;
+}
+

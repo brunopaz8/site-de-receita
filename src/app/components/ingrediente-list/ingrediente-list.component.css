@@ -1,8 +1,11 @@
+
 .ingrediente_label {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 18px;
     padding: 20px;
+    padding-top: 30px;
+    background-color: #ebc08bd7; /*  #F2AC57*/
 }
 
 
@@ -10,18 +13,18 @@
     padding: 10px;
     cursor: pointer;
     width: 224px;
-    height: 236px;
+    height: 242px;
     text-align: center;
     border-radius: 10px;
-    background-color: #fff9c4cb;
-    box-shadow: rgba(50, 50, 93, 0.15) 0px 6px 12px -2px, rgba(0, 0, 0, 0.15) 0px 3px 7px -3px;
+    background-color: #e6ab63; /*#ebc08bd7  */
+    box-shadow: #7d44198c 0px 6px 12px -2px, rgba(0, 0, 0, 0.26) 0px 3px 7px -3px;
     transition: all 0.3s ease;
 }
 
 .ingrediente_card:hover {
     transform: scale(1.05);
-    background-color: #fff9c4a2;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 12px 20px -2px, rgba(0, 0, 0, 0.3) 0px 6px 12px -3px;
+    background-color: #f7aa4c9a;
+    box-shadow: #7d44198c 0px 12px 20px -2px, rgba(0, 0, 0, 0.3) 0px 6px 12px -3px;
 }
 
 .ingrediente_card > img {
@@ -32,33 +35,46 @@
 }
 
 .ingrediente_card > p {
-    color: #333;
+    color: #683914d0;
     font-size: 18px;
     margin-top: 5px;
-    font-weight: 500;
+    font-family: cursive;
+    background-color: #f0d8baea; 
+    padding: 4px 8px;
+    border-radius: 6px; 
+    box-shadow: inset 0px 2px 1px 0px rgba(0,0,0,0.1); 
+    display: inline-block; 
+    transition: all 0.2s ease;
 }
 
+.ingrediente_card:hover > p{
+    box-shadow: inset  0px 0px ;
+}
 
 .aviso {
     text-align: center;
-    
     color: rgb(245, 60, 60);
-    padding: 8px 14px;
-    margin: 10px auto;
+    padding-top: 10px;
+    padding-bottom: 27px;
+    margin: 0px auto;
     width: fit-content;
     border-radius: 5px;
     font-weight: bold;
 
 }
-
+.botao{
+    background-color: #ebc08bd7;
+    
+    padding-bottom: 30px;
+}
 
 button {
     display: block;
-    margin: 15px auto;
+    margin: 0px auto;
     padding: 12px 24px;
     font-size: 16px;
-    background-color: #4CAF50;
-    color: white;
+    background-color: #733917;
+    color: #f7f7f7d7;
     border: none;
     border-radius: 8px;
     cursor: pointer;
@@ -67,26 +83,33 @@ button {
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #cc672d;
     transform: scale(1.05);
     
 }
 
 
 h2 {
-    background: #F57F17;
-    color: white;
+    background: #7D4419;
+    
     text-align: center;
-    padding: 10px 0;
-    border-bottom: 3px solid #1b5e20;
+    padding: 30px 30px;
+    
+    color: #fff8efd7;
+    font-size: 39px;
+    font-family: cursive;
     
 }
 
-
+.receita_container{
+    background-color: #ebc08bd7;
+    padding-top: 1px;
+}
 .receita_label {
     display: flex;
     justify-content: center;
-    margin: 20px;
+    padding: 20px;
+    
 }
 
 .receita_card {

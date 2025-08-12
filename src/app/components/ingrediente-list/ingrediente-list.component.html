@@ -3,18 +3,21 @@
 <div class="ingrediente_label">
   <div class="ingrediente_card" *ngFor="let ing of ingredientes"
        (click)="toggleSelecionado(ing.id)"
-       [style.border]="selecionados.includes(ing.id) ? '3px solid #87d844' : '1px solid #ccc'">
+       [style.border]="selecionados.includes(ing.id) ? '4px solid #7d4419d7' : '1.5px solid #f1cfa5a4'">
     <img [src]="ing.fotoUrl" alt="{{ ing.nome }}"/>
     <p>{{ ing.nome }}</p>
   </div>
 </div>
-<p class="aviso">{{aviso}}</p>
+<div class="botao">
+  <p class="aviso">{{aviso}}</p>
 
-<button (click)="buscarReceitas()">Buscar Receitas</button>
+  <button (click)="buscarReceitas()">Buscar Receitas</button>
+</div>
+
 
 <h2>{{titulo}}</h2>
 
-<div *ngIf="receitas.length > 0" >
+<div class="receita_container" *ngIf="receitas.length > 0" >
 
   <div *ngFor="let rec of receitas" class="receita_label">
 

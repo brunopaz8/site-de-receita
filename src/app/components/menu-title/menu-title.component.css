@@ -3,15 +3,17 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 20px; 
-  background-color: #fff9c4cb;
-  border: 5px solid #F57F17;
-  
-  
+
+  padding: 15px 20px 15px 4px;
+
+  background-color: #f1c794;
+  border: #7D4419 solid 7px;
+  border-radius: 8px;
 }
 
 img{
     width: 100px;
+    translate: 5px;
     
 }
 
@@ -24,8 +26,8 @@ img{
 
 .title {
   margin: 0;
-  font-size: 63px;
-  color: #df7f2c;
+  font-size: 64px;
+  color: #7D4419;
   font-family: "Cookie", cursive;
   translate: -15px 0px;
 }
@@ -33,26 +35,35 @@ img{
 .title_increment {
   width: 300px;
   margin: 0;
-  font-size: 29px;
-  color: #c0600ccc;
+  font-size: 30px;
+  color: #a3571de1;
   translate: 0px 8px;
   font-family: "Cookie", cursive;
 }
 
 .links {
   display: flex;
-  gap: 15px; /* espaço entre os links */
+  gap: 14px; 
   justify-content: flex-end;
   flex-shrink: 0;
+  font-size: 19px;
+  font-family: cursive;
+}
+
+.links > span {
+  color: #7d4419d0;
+  
 }
 
 .links a {
   text-decoration: none;
-  color: #007bff;
+  color: #7d4419d0;
   font-weight: 600;
   cursor: pointer;
+  transition: all 0.5s ease;
 }
 
 .links a:hover {
-  text-decoration: underline;
+  transform: translateY(-3px);
+  color: #834b21b2;
 }
