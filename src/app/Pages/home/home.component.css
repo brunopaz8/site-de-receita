@@ -5,6 +5,15 @@ html, body {
     height: 100%;
 }
 .title{
-     background-color: #7D4419;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #7D4419;
+}
+
+.content{
+    background-color: #7D4419;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
