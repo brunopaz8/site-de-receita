@@ -66,3 +66,31 @@
   
 }
 
+.botao{
+    padding-bottom: 30px;
+}
+
+.botao {
+    padding-bottom: 30px;
+    display: flex;            
+    justify-content: center;  
+}
+
+.botao > a {
+    padding: 12px 24px;
+    background-color: #733917;
+    border: none;
+    border-radius: 8px;
+    font-size: 19px;
+    color: #f7f7f7d7;
+    cursor: pointer;
+    box-shadow: rgba(0,0,0,0.2) 0px 4px 6px;
+    transition: all 0.3s ease;
+    text-decoration: none; 
+}
+
+.botao > a:hover {
+    background-color: #cc672d;
+    transform: scale(1.05);
+}
+
