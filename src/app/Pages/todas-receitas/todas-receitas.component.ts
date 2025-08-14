@@ -1,11 +1,17 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { MenuTitleTodasReceitasComponent } from "../../components/menu-title-todas-receitas/menu-title-todas-receitas.component";
+import { ListaReceitasComponent } from "../../components/lista-receitas/lista-receitas.component";
+import { MenuBottomComponent } from "../../components/menu-bottom/menu-bottom.component";
+
 
 @Component({
   selector: 'app-todas-receitas',
-  imports: [],
+  standalone: true,
+  imports: [CommonModule, MenuTitleTodasReceitasComponent, ListaReceitasComponent, MenuBottomComponent], 
   templateUrl: './todas-receitas.component.html',
-  styleUrl: './todas-receitas.component.css'
+  styleUrls: ['./todas-receitas.component.css']
 })
 export class TodasReceitasComponent {
-
+  
 }

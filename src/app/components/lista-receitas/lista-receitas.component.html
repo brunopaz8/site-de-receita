@@ -1,0 +1,28 @@
+
+<h2 class="title"> Receitas existentes </h2>
+
+<div class="content">
+
+  <div class="receitas-container">
+
+    <div *ngFor="let rec of receitas" class="receita_card">
+
+      <h3>{{ rec.nome }}</h3>
+      <img [src]="rec.fotoUrl" alt="{{ rec.nome }}" class="receita-img">
+      <p class="descricao">{{ rec.descricao }}</p>
+      <a [href]="rec.linkTutorial" target="_blank">Ver tutorial</a>
+      <p class="ingredientes">
+        <strong>Ingredientes:</strong> {{ formatarIngredientes(rec.ingredientes) }}
+      </p>
+
+    </div>
+
+  </div>
+
+  <div class="botao">
+
+    <a routerLink="">voltar</a>
+
+  </div>
+
+</div>

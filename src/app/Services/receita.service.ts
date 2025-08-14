@@ -35,6 +35,10 @@ export class ReceitaService {
       ))
     );
   }
+
+  getAll(): Observable<Receita[]>{
+    return this.http.get<Receita[]>(this.apiUrl);
+  }
 }
 
 

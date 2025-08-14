@@ -31,11 +31,15 @@
   <div *ngFor="let rec of receitas" class="receita_label">
 
     <div class="receita_card">
+
         <h3>{{ rec.nome }}</h3>
         <img [src]="rec.fotoUrl"/>
         <p class="descricao">{{ rec.descricao }}</p>
         <a [href]="rec.linkTutorial" target="_blank" rel="noopener noreferrer">Tutorial</a>
-        <p class="ingredientes"><strong>Ingredientes:</strong> {{ formatarIngredientes(rec.ingredientes) }}</p>
+        <p class="ingredientes">
+          <strong>Ingredientes:</strong> {{ formatarIngredientes(rec.ingredientes) }}
+        </p>
+
     </div>
 
   </div>

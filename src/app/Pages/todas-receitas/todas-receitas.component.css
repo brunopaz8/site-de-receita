@@ -1,0 +1,18 @@
+html, body {
+    background-color: #F2AC57;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.title{
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #7D4419;
+}
+
+.content{
+    background-color: #7D4419;
+    padding-left: 5px;
+    padding-right: 5px;
+}
