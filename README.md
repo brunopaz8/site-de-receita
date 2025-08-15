@@ -4,7 +4,7 @@ Este é um projeto **front-end** desenvolvido em **Angular** que permite ao usu�
 
 ---
 
-## 🛠️ Tecnologias utilizadas
+## 🛠️ Tecnologias Utilizadas
 
 * **Angular 17**
 * **TypeScript**
@@ -23,10 +23,11 @@ Este é um projeto **front-end** desenvolvido em **Angular** que permite ao usu�
 
 ---
 
-## 📸 Capturas de Tela
-todo: gravação do site
+## 📸 Vídeo de Demonstração
+[![Assista no YouTube](https://i.ytimg.com/an_webp/9Xz9BulHrGk/mqdefault_6s.webp?du=3000&sqp=CIq1_sQG&rs=AOn4CLD7697lyXffvMhcEG1FU04PRyLLcQ)](https://www.youtube.com/watch?v=9Xz9BulHrGk)
+
 ---
-## 📚 Como executar o projeto
+## 🚀 Como Executar o Projeto
 
 1️⃣. **Clonar o repositório**:
 
